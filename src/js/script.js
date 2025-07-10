@@ -64,3 +64,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	});
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+	const toUpBtn = document.querySelector('.to-up');
+	if (toUpBtn) {
+		toUpBtn.addEventListener('click', function (e) {
+			e.preventDefault();
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		});
+	}
+});

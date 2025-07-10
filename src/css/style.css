@@ -12,6 +12,32 @@ button {
 	cursor: pointer;
 }
 
+.to-up {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 58px;
+	height: 56px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+}
+
+.to-up__link {
+	color: #249c45;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.to-up:hover {
+	border: 2px solid #52FA43;
+	color: #52FA43;
+}
 
 .wrap {
 	max-width: 1200px;
@@ -85,6 +111,7 @@ button {
 	box-shadow: 0 8px 32px 0 rgba(27, 128, 54, 0.35);
 	transform: scale(1.03);
 }
+
 .header__link--dropdown {
 	position: relative;
 }
@@ -121,6 +148,7 @@ button {
 	background: #f2f2f2;
 	color: #1B8036;
 }
+
 /* burger */
 .burger {
 	display: none;
@@ -898,7 +926,7 @@ button {
 		opacity: 1;
 		pointer-events: auto;
 		padding: 10px 0;
-	
+
 		margin: initial;
 
 	}
